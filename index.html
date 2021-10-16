@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/ec1633c775.js" crossorigin="anonymous"></script>
+    <title>ToDo List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="top">
+        <img src="./images/bg.jpg" alt="background sky">
+        <p class="date"></p>
+        <p class="heading">ToDo List App</p>
+    </div>
+    <div class="entry">
+        <select class="selectPriority" >
+            <option value="Priority" selected>Priority</option>
+            <option value="Critical">Critical</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+        </select>
+        <input type="text" class="inputTodo" placeholder=" Add a To-Do">
+        <button class="btn-add">Add</button>
+    </div>
+    <main>
+        <p class="noAction">There is NO To-Do in the list</p>
+        <div class="container">
+            <!-- <div class="todo-item critical/high/medium/low">
+                <div class="check ${completed ? 'green' : ''}"><i class="fas fa-check" data-check="false" data-id="1"></i></div>
+                <div class="todo ${completed ? 'line' : ''}">toDoAction here</div>
+                <div class="edit"><i class="far fa-edit" data-id="1"></i></div>
+                <div class="trash"><i class="fas fa-trash-alt" data-id="1"></i></div>
+            </div> -->
+            
+            
+        </div>
+    </main>
+
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
